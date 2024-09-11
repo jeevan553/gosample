@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_gosample_1726099013791-pr-trigger-input-set
+  identifier: Build_gosample_1726099013791prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_gosample_1726099013791
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
